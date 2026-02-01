@@ -1,0 +1,16 @@
+
+// _vwap
+
+value1 = value1[1] + (avg(high, low, close) * volume);
+value2 = value2[1] + volume;
+
+// if (70000 <= time and 70000 > time[1]) then {
+if (bdate[1] != bdate) then {
+  value1 = avg(high, low, close) * volume;
+  value2 = volume;
+}
+
+value10 = value1 / value2;
+
+plot1(value10, "vwap");
+
